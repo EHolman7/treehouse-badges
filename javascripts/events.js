@@ -7,8 +7,8 @@ const createDomString = (badges) => {
     for(var i=0; i<badges.length; i++){
         var newBadge = "";
         newBadge +=`<div class="badgeBox"  id="badgeBox-${i}">`;
-        newBadge +=`<div class="badgeName">${badges[i].name}</div>`;
-        newBadge +=`<img class="BadgeImage" src="${badges[i].icon_url}">`;
+        newBadge +=`<div class="name">${badges[i].name}</div>`;
+        newBadge +=`<img class="image" src="${badges[i].icon_url}">`;
         newBadge += `</div>`;
         badgeString += newBadge;
     }
