@@ -9,14 +9,22 @@ h1 {
 }
 
 #badgeHolder {
+	/*width: 350px;*/
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center; 
+	justify-content: center;
+}
+
+.badgeBox{
+	max-width: 100%;
+	border: 1px solid gray;
+	padding: 30px;
 }
 
 .image {
-  height: 300px;
-  width: 300px
+	text-align: center;
+	height: 300px;
+	width: 300px;
 }
 
 .name {
